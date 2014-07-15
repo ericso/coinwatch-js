@@ -8,8 +8,8 @@
 var FROM_SMS = '+18127164426';
 
 // Twillio creds
-TWILIO_ACCOUNT_SID = 'AC15b12a7d7a98691289a93a493ff38551';
-TWILIO_AUTH_TOKEN = '46c889a30b6b1381162a90a4ac27cb6c';
+TWILIO_ACCOUNT_SID = 'XXXX';
+TWILIO_AUTH_TOKEN = 'XXXX';
 
 // require the Twilio module and create a REST client
 var twilio_client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
