@@ -1,0 +1,17 @@
+<li class="dropdown">
+	{{#if isAuthenticated}}
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{username}}	<b class="caret"></b>
+	</a>
+	<ul class="dropdown-menu">
+		<li><a href="#profile">Profile</a></li>
+		<li><a href="#logout">Logout</a></li>
+	</ul>
+	{{else}}
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>	<b class="caret"></b>
+	</a>
+	<ul class="dropdown-menu">
+		<li><a href="#login">Login</a></li>
+		<li><a href="#signup">Sign Up</a></li>
+	</ul>
+	{{/if}}
+</li>
