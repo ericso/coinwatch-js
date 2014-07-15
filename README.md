@@ -1,3 +1,6 @@
+This is an app that polls the Coinbase api for bitcoin buy/sell prices and stores them into a Mongodb database. It is bootstrapped with the BENM boilerplate. The rest of this readme is from that project.
+
+
 # B.E.N.M Boilerplate
 
 Backbone.js, ExpressJS & node.js, MongoDB
